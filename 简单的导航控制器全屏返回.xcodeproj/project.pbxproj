@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		447C89AE1C7EAB2300ACD34C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 447C89AD1C7EAB2300ACD34C /* main.m */; };
+		447C89B11C7EAB2300ACD34C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 447C89B01C7EAB2300ACD34C /* AppDelegate.m */; };
+		447C89B91C7EAB2300ACD34C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 447C89B81C7EAB2300ACD34C /* Assets.xcassets */; };
+		447C89BC1C7EAB2300ACD34C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 447C89BA1C7EAB2300ACD34C /* LaunchScreen.storyboard */; };
+		447C89C91C7EAC4E00ACD34C /* WYSOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 447C89C81C7EAC4E00ACD34C /* WYSOneViewController.m */; };
+		447C89CC1C7EAC7300ACD34C /* WYSTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 447C89CB1C7EAC7300ACD34C /* WYSTwoViewController.m */; };
+		447C89CF1C7EACBA00ACD34C /* WYSFullBackNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 447C89CE1C7EACBA00ACD34C /* WYSFullBackNavController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		447C89A91C7EAB2300ACD34C /* 简单的导航控制器全屏返回.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "简单的导航控制器全屏返回.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		447C89AD1C7EAB2300ACD34C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		447C89AF1C7EAB2300ACD34C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		447C89B01C7EAB2300ACD34C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		447C89B81C7EAB2300ACD34C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		447C89BB1C7EAB2300ACD34C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		447C89BD1C7EAB2300ACD34C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		447C89C71C7EAC4E00ACD34C /* WYSOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYSOneViewController.h; sourceTree = "<group>"; };
+		447C89C81C7EAC4E00ACD34C /* WYSOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYSOneViewController.m; sourceTree = "<group>"; };
+		447C89CA1C7EAC7300ACD34C /* WYSTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYSTwoViewController.h; sourceTree = "<group>"; };
+		447C89CB1C7EAC7300ACD34C /* WYSTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYSTwoViewController.m; sourceTree = "<group>"; };
+		447C89CD1C7EACBA00ACD34C /* WYSFullBackNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYSFullBackNavController.h; sourceTree = SOURCE_ROOT; };
+		447C89CE1C7EACBA00ACD34C /* WYSFullBackNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYSFullBackNavController.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		447C89A61C7EAB2300ACD34C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		447C89A01C7EAB2300ACD34C = {
+			isa = PBXGroup;
+			children = (
+				447C89AB1C7EAB2300ACD34C /* 简单的导航控制器全屏返回 */,
+				447C89AA1C7EAB2300ACD34C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		447C89AA1C7EAB2300ACD34C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				447C89A91C7EAB2300ACD34C /* 简单的导航控制器全屏返回.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		447C89AB1C7EAB2300ACD34C /* 简单的导航控制器全屏返回 */ = {
+			isa = PBXGroup;
+			children = (
+				447C89AF1C7EAB2300ACD34C /* AppDelegate.h */,
+				447C89B01C7EAB2300ACD34C /* AppDelegate.m */,
+				447C89CD1C7EACBA00ACD34C /* WYSFullBackNavController.h */,
+				447C89CE1C7EACBA00ACD34C /* WYSFullBackNavController.m */,
+				447C89C71C7EAC4E00ACD34C /* WYSOneViewController.h */,
+				447C89C81C7EAC4E00ACD34C /* WYSOneViewController.m */,
+				447C89CA1C7EAC7300ACD34C /* WYSTwoViewController.h */,
+				447C89CB1C7EAC7300ACD34C /* WYSTwoViewController.m */,
+				447C89B81C7EAB2300ACD34C /* Assets.xcassets */,
+				447C89BA1C7EAB2300ACD34C /* LaunchScreen.storyboard */,
+				447C89BD1C7EAB2300ACD34C /* Info.plist */,
+				447C89AC1C7EAB2300ACD34C /* Supporting Files */,
+			);
+			path = "简单的导航控制器全屏返回";
+			sourceTree = "<group>";
+		};
+		447C89AC1C7EAB2300ACD34C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				447C89AD1C7EAB2300ACD34C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		447C89A81C7EAB2300ACD34C /* 简单的导航控制器全屏返回 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 447C89C01C7EAB2300ACD34C /* Build configuration list for PBXNativeTarget "简单的导航控制器全屏返回" */;
+			buildPhases = (
+				447C89A51C7EAB2300ACD34C /* Sources */,
+				447C89A61C7EAB2300ACD34C /* Frameworks */,
+				447C89A71C7EAB2300ACD34C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "简单的导航控制器全屏返回";
+			productName = "简单的导航控制器全屏返回";
+			productReference = 447C89A91C7EAB2300ACD34C /* 简单的导航控制器全屏返回.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		447C89A11C7EAB2300ACD34C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = WYS;
+				TargetAttributes = {
+					447C89A81C7EAB2300ACD34C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 447C89A41C7EAB2300ACD34C /* Build configuration list for PBXProject "简单的导航控制器全屏返回" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 447C89A01C7EAB2300ACD34C;
+			productRefGroup = 447C89AA1C7EAB2300ACD34C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				447C89A81C7EAB2300ACD34C /* 简单的导航控制器全屏返回 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		447C89A71C7EAB2300ACD34C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				447C89BC1C7EAB2300ACD34C /* LaunchScreen.storyboard in Resources */,
+				447C89B91C7EAB2300ACD34C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		447C89A51C7EAB2300ACD34C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				447C89CF1C7EACBA00ACD34C /* WYSFullBackNavController.m in Sources */,
+				447C89B11C7EAB2300ACD34C /* AppDelegate.m in Sources */,
+				447C89CC1C7EAC7300ACD34C /* WYSTwoViewController.m in Sources */,
+				447C89C91C7EAC4E00ACD34C /* WYSOneViewController.m in Sources */,
+				447C89AE1C7EAB2300ACD34C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		447C89BA1C7EAB2300ACD34C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				447C89BB1C7EAB2300ACD34C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		447C89BE1C7EAB2300ACD34C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		447C89BF1C7EAB2300ACD34C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		447C89C11C7EAB2300ACD34C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "简单的导航控制器全屏返回/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "a.------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		447C89C21C7EAB2300ACD34C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "简单的导航控制器全屏返回/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "a.------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		447C89A41C7EAB2300ACD34C /* Build configuration list for PBXProject "简单的导航控制器全屏返回" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				447C89BE1C7EAB2300ACD34C /* Debug */,
+				447C89BF1C7EAB2300ACD34C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		447C89C01C7EAB2300ACD34C /* Build configuration list for PBXNativeTarget "简单的导航控制器全屏返回" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				447C89C11C7EAB2300ACD34C /* Debug */,
+				447C89C21C7EAB2300ACD34C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 447C89A11C7EAB2300ACD34C /* Project object */;
+}
